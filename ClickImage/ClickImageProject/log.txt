@@ -1,0 +1,10 @@
+54 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+12 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+42 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+14 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+49 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+14 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+49 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+38 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+56 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+02 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
