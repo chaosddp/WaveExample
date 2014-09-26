@@ -40,12 +40,10 @@ namespace ClickImageProject.Behaviors
                     // check position
                     var pos = touch[0].Position;
 
-                    var targetRect = _transform.Rectangle;
-
-                    if (pos.X < targetRect.Right
-                        && pos.X > targetRect.Left
-                        && pos.Y < targetRect.Bottom
-                        && pos.Y > targetRect.Top)
+                    if (pos.X < _transform.LocalX+_transform.Rectangle.Width
+                        && pos.X > _transform.LocalX
+                        && pos.Y < _transform.LocalY+_transform.Rectangle.Height
+                        && pos.Y > _transform.LocalY)
                     {
                         if (!_changed)
                         {
