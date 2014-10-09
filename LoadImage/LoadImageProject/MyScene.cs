@@ -32,6 +32,7 @@ namespace LoadImageProject
                 .AddComponent(new SpriteRenderer(DefaultLayers.Opaque));
 
             this.EntityManager.Add(img);
+
         }
 
         protected override void Start()
