@@ -3,22 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WaveEngine.Common.Input;
 using WaveEngine.Common.Math;
 using WaveEngine.Framework;
 using WaveEngine.Framework.Graphics;
 using WaveEngine.Framework.Services;
 
-namespace ImageFollowMouseProject.Behaviors
+namespace Share.Behaviors
 {
-    public class MouseFollowingBehavior : Behavior
+    public class MoveToPointerBehavior : Behavior
     {
+        public MoveToPointerBehavior(float speed = 10f)
+        {
+            _speed = speed;
+        }
+
         [RequiredComponent]
         private Transform2D _transform = null;
 
         private Input _input;
 
-        private float _speed = 10f;
+        private float _speed = 0f;
 
         protected override void Initialize()
         {

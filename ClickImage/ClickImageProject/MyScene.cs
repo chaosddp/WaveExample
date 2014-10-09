@@ -41,7 +41,7 @@ namespace ClickImageProject
                 .AddComponent(new SpriteRenderer(DefaultLayers.Opaque))
                 .AddComponent(imgTouchComp);
             //.AddComponent(new ImageBehavior(camera.Entity));
-
+           
             EntityManager.Add(img);
 
         }

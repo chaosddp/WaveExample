@@ -1,4 +1,5 @@
 #region Using Statements
+using Share;
 using System;
 using WaveEngine.Common;
 using WaveEngine.Common.Graphics;
@@ -12,27 +13,22 @@ using WaveEngine.Framework.Resources;
 using WaveEngine.Framework.Services;
 #endregion
 
-namespace LoadImageProject
+namespace TemplateTestProject
 {
     public class MyScene : Scene
     {
         protected override void CreateScene()
         {
-            //Insert your scene definition here.
+            // Create a 2D camera
+            var camera2D = new FixedCamera2D("Camera2D") { }; // Transparent background need this clearFlags.
+            EntityManager.Add(camera2D);
 
-            var camera2d = new FixedCamera2D("Camera2D") {
-             ClearFlags = ClearFlags.DepthAndStencil
-            };
+            EntityManager.Add(TemplateManager.Instance.Create("Image Sprite"));
+        }
 
-            EntityManager.Add(camera2d);
-
-            var img = new Entity()
-                .AddComponent(new Transform2D())
-                .AddComponent(new Sprite("Content/ein"))
-                .AddComponent(new SpriteRenderer(DefaultLayers.Opaque));
-
-            this.EntityManager.Add(img);
-
+        void InitTemplate()
+        {
+            TemplateManager.Instance.Add<ImageSpriteTemplate>();
         }
 
         protected override void Start()

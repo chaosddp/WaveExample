@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0C9C07DF-702A-403E-A0E2-9EEE6B90B048}</ProjectGuid>
+    <ProjectGuid>{7999FCB0-F7C8-42A3-9F20-B17E54F597C1}</ProjectGuid>
     <WaveEngineProject>{196BC63C-5C01-4C02-9F24-E720CA3AD406}</WaveEngineProject>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ImageFollowMouseProject</RootNamespace>
-    <AssemblyName>ImageFollowMouseProject</AssemblyName>
+    <RootNamespace>TemplateTestProject</RootNamespace>
+    <AssemblyName>TemplateTestProject</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
+    <Compile Include="ImageSpriteTemplate.cs" />
     <Compile Include="MyScene.cs" />
   </ItemGroup>
   <ItemGroup>

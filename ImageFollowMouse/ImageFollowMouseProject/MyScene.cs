@@ -28,7 +28,7 @@ namespace ImageFollowMouseProject
                 .AddComponent(new Transform2D() { Origin = new Vector2(0.5f, 0.5f), XScale = 0.5f, YScale = 0.5f })
                 .AddComponent(new Sprite("Content/ein"))
                 .AddComponent(new SpriteRenderer(DefaultLayers.Opaque))
-                .AddComponent(new Behaviors.MouseFollowingBehavior());
+                .AddComponent(new Share.Behaviors.MoveToPointerBehavior(5f));
 
             this.EntityManager.Add(img);
         }
