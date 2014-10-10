@@ -53,6 +53,12 @@
   <ItemGroup>
     <None Include="Resources.weproj" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Share\Share.csproj">
+      <Project>{bfe34d1b-c3ca-4724-bc9e-727cd9039a73}</Project>
+      <Name>Share</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(WaveEngine)v1.0\Targets\Windows\WPKAssetsExport.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

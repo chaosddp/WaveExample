@@ -40,16 +40,11 @@ namespace ClickImageProject
                 .AddComponent(new Sprite("Content/ein"))
                 .AddComponent(new SpriteRenderer(DefaultLayers.Opaque))
                 .AddComponent(imgTouchComp);
-            //.AddComponent(new ImageBehavior(camera.Entity));
            
             EntityManager.Add(img);
 
         }
 
-        void imgTouchComp_TouchTap(object sender, GestureEventArgs e)
-        {
-            throw new NotImplementedException();
-        }
 
         protected override void Start()
         {

@@ -12,7 +12,7 @@ using WaveEngine.Framework.Resources;
 using WaveEngine.Framework.Services;
 #endregion
 
-namespace MoveImageProject
+namespace TweenImageProject
 {
     public class MyScene : Scene
     {
@@ -21,18 +21,19 @@ namespace MoveImageProject
             //Insert your scene definition here.
 
             var camera = new FixedCamera2D("camera");
+            camera.BackgroundColor = Color.Gray;
 
-            this.EntityManager.Add(camera);
+            EntityManager.Add(camera);
+
 
             var img = new Entity()
                 .AddComponent(new Transform2D())
                 .AddComponent(new Sprite("Content/ein"))
                 .AddComponent(new SpriteRenderer(DefaultLayers.Opaque))
-                .AddComponent(new Behaviors.ImageBehavior());
+                .AddComponent(new TweenBehavior());
 
-            this.EntityManager.Add(img);
+            EntityManager.Add(img);
 
-      
         }
 
         protected override void Start()

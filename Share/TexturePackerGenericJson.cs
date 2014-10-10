@@ -23,9 +23,16 @@ namespace Share
         /// <returns>Array of <see cref="Rectangle"/>.</returns>
         public Rectangle[] Parse(string path)
         {
-            Stream stream = WaveServices.Storage.OpenContentFile(path);
+            JObject settings = null;
 
-            var settings = JObject.Parse(File.ReadAllText(path));
+            // change it to using StreamReader, so that i do not need to change to when convert to WP
+            using (var stream = WaveServices.Storage.OpenContentFile(path))
+            {
+                using (var reader = new StreamReader(stream))
+                {
+                    settings = JObject.Parse(reader.ReadToEnd());
+                }
+            }
 
             var frames = settings["frames"].Select(frame => new Rectangle()
             {
