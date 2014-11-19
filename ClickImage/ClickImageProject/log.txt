@@ -22,3 +22,16 @@
 03 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
 50 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
 35 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+27 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+27 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Video" is not marked with AssetAttribute. 
+27 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+27 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+27 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Video" is not marked with AssetAttribute. 
+27 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+27 ExportAsset File C:\Users\v-chaoyu\Documents\GitHub\WaveExample\Resources\Content\Animations\running_bot.png could not be exported for platform Windows. Reason: 文件“C:\Users\v-chaoyu\Documents\GitHub\WaveExample\Resources\Export\Windows\Animations\running_bot.wpk”正由另一进程使用，因此该进程无法访问此文件。 
+41 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+41 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Video" is not marked with AssetAttribute. 
+41 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+41 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+41 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Video" is not marked with AssetAttribute. 
+41 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 

@@ -8,3 +8,15 @@
 53 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
 19 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
 03 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+28 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+28 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Video" is not marked with AssetAttribute. 
+28 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+28 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+28 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Video" is not marked with AssetAttribute. 
+28 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+42 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+42 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Video" is not marked with AssetAttribute. 
+42 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+42 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 
+42 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Video" is not marked with AssetAttribute. 
+42 CreateAsset Registered asset of type "WaveEditor.Extensions.Model.Assets.Music" is not marked with AssetAttribute. 

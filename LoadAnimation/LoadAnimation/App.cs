@@ -21,8 +21,8 @@ namespace LoadAnimation
 
         public App()
         {
-            this.Width = 1280;
-            this.Height = 720;
+            this.Width = 800;
+            this.Height = 600;
             this.FullScreen = false;
             this.WindowTitle = "LoadAnimation";
         }
